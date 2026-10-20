@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f3ec">
+  <title>微调 Tipsy — 你的家庭小酒吧</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#mix" aria-label="微调首页"><span class="brand-symbol">t.</span><span>微调<small>TIPSY CLUB</small></span></a>
+    <div class="sidebar-caption">YOUR HOME BAR</div>
+    <nav aria-label="主导航">
+      <button data-page="mix" class="nav-item active"><span class="nav-icon">✳</span><span>调一杯</span><span class="nav-arrow">↗</span></button>
+      <button data-page="mine" class="nav-item"><span class="nav-icon">♡</span><span>我的酒单</span><span class="nav-arrow">↗</span></button>
+      <button data-page="classics" class="nav-item"><span class="nav-icon">▤</span><span>经典酒谱</span><span class="nav-arrow">↗</span></button>
+    </nav>
+    <div class="sidebar-note"><span class="little-star">✦</span><p>把日常，<br>调成喜欢的味道。</p><small>A LITTLE MIX. A GOOD NIGHT.</small></div>
+    <button id="account-button" class="account"><span class="avatar">☺</span><span id="account-label">登录 / 注册<small>收藏你的微醺灵感</small></span><span>↗</span></button>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><span id="breadcrumb">HOME / 调一杯</span><div><span class="available-dot"></span><span>你的家庭小酒吧</span><button class="mobile-account" id="mobile-account" aria-label="账号">☺</button></div></header>
+    <main id="main"></main>
+    <footer class="footer"><span>微调 TIPSY CLUB</span><span>好好调酒，慢慢享用。 · 仅限成年人</span></footer>
+  </div>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

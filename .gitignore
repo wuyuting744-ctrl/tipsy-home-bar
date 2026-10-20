@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+preview-*.png
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db
