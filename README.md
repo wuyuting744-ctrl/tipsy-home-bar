@@ -1,6 +1,6 @@
 # 微调 · Tipsy Club
 
-居家调酒的交互 HTML 原型。双击 `index.html` 即可打开，无需安装依赖。
+居家调酒的网页原型。双击 `index.html` 即可打开，无需安装依赖。
 
 ## GitHub Pages
 
