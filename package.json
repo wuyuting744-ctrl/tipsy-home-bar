@@ -1,0 +1,12 @@
+{
+  "name": "tipsy-home-bar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node verify-database.cjs && node verify.cjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14",
+    "playwright": "1.58.2"
+  }
+}
