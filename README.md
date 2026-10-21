@@ -1,6 +1,6 @@
 # 微调 · Tipsy Club
 
-居家调酒网页，使用 GitHub Pages 托管静态页面，使用 Supabase Auth 和 PostgreSQL 保存账号数据。
+居家调酒的网页原型，使用 GitHub Pages 托管静态页面，使用 Supabase Auth 和 PostgreSQL 保存账号数据。
 
 - 网站：https://wuyuting744-ctrl.github.io/tipsy-home-bar/
 - Supabase 项目：https://supabase.com/dashboard/project/popangetivmijcqnwohl
